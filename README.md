@@ -1,30 +1,26 @@
-# Virtual_Catalog
+# Electronic-calculator
 
-Numele: Marin Marius Daniel
-Grupa: 322CC
-Gradul de dificultate al temei: mediu
-Timp alocat: 35-40h
+## Implementation
 
-Mod de implementare
-	Clasele principale ce merita mentionate sunt: 
+The main classes worth mentioning are:
 
-	Catalog, in care se stocheaza cursurile, fiind construita folosind sablonul de proiectare Singleton in care se instantiaza un singur obiect de acest tip
-	Course, nucleul proiectului, care contine toate informatiile necesare despre detaliile legate de curs
-	User, care defineste modul de construire al tuturor utilizatorilor ( Student, Parent, Teacher, Asistent )
+* `Catalog` , in which the courses are stored, being built using the Singleton design template in which a single object of this type is instantiated
+* `Course` , the core of the project, which contains all the necessary information about the details related to the course
+* `User` , which defines the construction mode of all users (Student, Parent, Teacher, Assistant)
 
-	Sabloanele principale ce merita mentionate sunt:
+The main template (sabloane) worth mentioning are:
 
-	Observer, care permite trimitea unei Notificari ( codare a notei unui student) si o stocheaza intr un vector de notificari al parintilor studentului (in cazul in care parintele se afla in vectorul de observatori)
-	Visitor, care permite validarea notelor de catre asistent sau profesor, din 2 dictionare in cursurile corespunzatoare
+* `Observer` , which allows sending a Notification (encoding a student's grade) and stores it in a notification vector of the student's parents (if the parent is in the observer vector)
+* `Visitor` , which allows the assistant or teacher to validate grades from 2 dictionaries in the corresponding courses
 
 
-	Interfata grafica:
+Graphic interface:
 
-	Pentru pagina de student, se insereaza intr o zona text numele elevului, apoi se apasa pe buton de search, afisandu se ulterior butoane cu fiecare curs ; la apasarea unui astfel de buton, se ofera detalii legate de situatia studentului la acel curs
-	Pentru pagina de parinte, se insereaza intr o zona text numele parintelui, iar daca acesta se afla in vectorul de observatori, va aparea un buton care odata apasat va afisa o fereastra cu detaliile tuturor notificarilor primite in ordine cronologica
-	Pentru pagina de profesor / asistent se scrie numele in zona text ; daca exista se vor afisa 2 butoane ; unul afiseaza detaliile fiecarui student de la fiecare curs si altul care valideaza notele din dictionarul specific profesorului / asistentului
+* For the `student page` , insert the student's name in a text area, then press the search button, subsequently displaying buttons with each course; upon pressing such a button, details related to the student's situation in that course are provided
+* For the `parent page` , insert the parent's name in a text area, and if he is in the observers vector, a button will appear which, once pressed, will display a window with the details of all the notifications received in chronological order
+* For the `teacher/assistant page` , write the name in the text area; if there are, 2 buttons will be displayed; one displays the details of each student from each course and another that validates the grades from the dictionary specific to the teacher/assistant
 
-	IDE & Testare
+IDE & Testing
 
-	Intellij Idea 
-	 testarea a fost personalizata pentru fiecare pagina in functia main a claselor
+* Intellij IDEA
+* Testing was customized for each page depending on the classes
