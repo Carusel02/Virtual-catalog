@@ -25,7 +25,7 @@ IDE & Testing
 * Intellij IDEA
 * Testing was customized for each page depending on the classes
 
-Preview
+## Preview
 * Student page view
   
 ![student-page-blur](https://github.com/Carusel02/Virtual-catalog/assets/40697296/a633d1ad-c04d-489d-965c-18cda6d6fb89)
