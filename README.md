@@ -27,8 +27,11 @@ IDE & Testing
 
 Preview
 * Student page view
+  
 ![student-page-blur](https://github.com/Carusel02/Virtual-catalog/assets/40697296/a633d1ad-c04d-489d-965c-18cda6d6fb89)
 * Parent page view
+  
 ![parent-page-blur](https://github.com/Carusel02/Virtual-catalog/assets/40697296/a374332c-66e6-4b33-bbe0-1d38f5e1d231)
 * Teacher page view
+
 ![teacher-page-blur](https://github.com/Carusel02/Virtual-catalog/assets/40697296/d0ab9c05-9b1e-4942-9d4c-65d2847b5c66)
